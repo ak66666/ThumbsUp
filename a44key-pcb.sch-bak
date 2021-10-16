@@ -1116,4 +1116,24 @@ Connection ~ 9600 2300
 Wire Wire Line
 	10300 2300 10300 2000
 Connection ~ 10300 2300
+Text GLabel 10300 2000 1    50   Input ~ 0
+COL0
+Text GLabel 9600 2000 1    50   Input ~ 0
+COL1
+Text GLabel 8950 2000 1    50   Input ~ 0
+COL2
+Text GLabel 8250 2000 1    50   Input ~ 0
+COL3
+Text GLabel 7550 2000 1    50   Input ~ 0
+COL4
+Text GLabel 6850 2000 1    50   Input ~ 0
+COL5
+Text GLabel 6200 2700 0    50   Input ~ 0
+ROW0
+Text GLabel 6200 3500 0    50   Input ~ 0
+ROW1
+Text GLabel 6200 4300 0    50   Input ~ 0
+ROW2
+Text GLabel 6200 5100 0    50   Input ~ 0
+ROW3
 $EndSCHEMATC
