@@ -253,11 +253,6 @@ F 3 "" H 2700 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 3050 2700 3050
-Wire Wire Line
-	2700 3050 2700 2950
-Connection ~ 2700 2950
-Wire Wire Line
-	2700 2950 2700 2800
 $Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 616C3379
@@ -1156,4 +1151,9 @@ T
 Wire Wire Line
 	3500 5550 3600 5550
 Connection ~ 3500 5550
+Wire Wire Line
+	3700 1950 3600 1950
+Connection ~ 3600 1950
+Wire Wire Line
+	2700 3050 2700 2950
 $EndSCHEMATC
