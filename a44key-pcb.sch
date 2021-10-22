@@ -401,17 +401,6 @@ F 3 "" H 5200 1400 60  0001 C CNN
 	1    5200 1400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:Polyfuse F1
-U 1 1 616D8C6B
-P 6300 1200
-F 0 "F1" V 6075 1200 50  0000 C CNN
-F 1 "Polyfuse" V 6166 1200 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 6350 1000 50  0001 L CNN
-F 3 "~" H 6300 1200 50  0001 C CNN
-	1    6300 1200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5500 1200 5900 1200
 $Comp
@@ -443,8 +432,6 @@ F 3 "" H 6750 1050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6750 1050 6750 1200
-Wire Wire Line
-	6750 1200 6450 1200
 $Comp
 L power:GND #PWR0113
 U 1 1 616DE7DA
@@ -1143,8 +1130,6 @@ F 3 "~" H 3850 850 50  0001 C CNN
 	1    3850 850 
 	1    0    0    -1  
 $EndComp
-Text GLabel 4250 750  2    50   Input ~ 0
-VCC
 Wire Wire Line
 	3500 5550 3600 5550
 Connection ~ 3500 5550
@@ -1155,8 +1140,6 @@ Wire Wire Line
 	2700 3050 2700 2950
 Text GLabel 4200 3450 2    50   Input ~ 0
 SCL
-Text GLabel 3600 1950 1    50   Input ~ 0
-VCC
 $Comp
 L power:GND #PWR0114
 U 1 1 619786D4
@@ -1192,4 +1175,30 @@ Text GLabel 4200 2450 2    50   Input ~ 0
 COL4
 Text GLabel 4200 2850 2    50   Input ~ 0
 COL5
+$Comp
+L Device:Polyfuse F1
+U 1 1 616D8C6B
+P 6300 1200
+F 0 "F1" V 6075 1200 50  0000 C CNN
+F 1 "Polyfuse" V 6166 1200 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6350 1000 50  0001 L CNN
+F 3 "~" H 6300 1200 50  0001 C CNN
+	1    6300 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 1200 6750 1200
+$Comp
+L power:+5V #PWR?
+U 1 1 617476F1
+P 4500 750
+F 0 "#PWR?" H 4500 600 50  0001 C CNN
+F 1 "+5V" H 4515 923 50  0000 C CNN
+F 2 "" H 4500 750 50  0001 C CNN
+F 3 "" H 4500 750 50  0001 C CNN
+	1    4500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 750  4500 750 
 $EndSCHEMATC
