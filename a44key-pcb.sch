@@ -1255,4 +1255,65 @@ Wire Wire Line
 Wire Wire Line
 	7250 4850 7250 4900
 Connection ~ 7250 4900
+$Comp
+L Device:C_Small C8
+U 1 1 6197A27B
+P 1000 5400
+F 0 "C8" H 1092 5446 50  0000 L CNN
+F 1 "0.1uF" H 1092 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 5400 50  0001 C CNN
+F 3 "~" H 1000 5400 50  0001 C CNN
+	1    1000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5550 1000 5550
+Wire Wire Line
+	1000 5550 1000 5500
+Connection ~ 1350 5550
+Wire Wire Line
+	1350 5250 1000 5250
+Wire Wire Line
+	1000 5250 1000 5300
+Connection ~ 1350 5250
+$Comp
+L power:GND #PWR?
+U 1 1 61993731
+P 6350 6000
+F 0 "#PWR?" H 6350 5750 50  0001 C CNN
+F 1 "GND" H 6355 5827 50  0000 C CNN
+F 2 "" H 6350 6000 50  0001 C CNN
+F 3 "" H 6350 6000 50  0001 C CNN
+	1    6350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61993FD0
+P 8150 5950
+F 0 "#PWR?" H 8150 5700 50  0001 C CNN
+F 1 "GND" H 8155 5777 50  0000 C CNN
+F 2 "" H 8150 5950 50  0001 C CNN
+F 3 "" H 8150 5950 50  0001 C CNN
+	1    8150 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5550 8150 5550
+Wire Wire Line
+	8150 5550 8150 5850
+Wire Wire Line
+	8300 5850 8150 5850
+Connection ~ 8150 5850
+Wire Wire Line
+	8150 5850 8150 5950
+Wire Wire Line
+	6550 5500 6350 5500
+Wire Wire Line
+	6350 5500 6350 5800
+Wire Wire Line
+	6550 5800 6350 5800
+Connection ~ 6350 5800
+Wire Wire Line
+	6350 5800 6350 6000
 $EndSCHEMATC

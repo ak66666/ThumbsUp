@@ -1207,7 +1207,7 @@ U 1 1 6193A042
 P 6750 5700
 F 0 "J2" H 6642 5275 50  0000 C CNN
 F 1 "Conn_01x04_Female" H 6642 5366 50  0000 C CNN
-F 2 "" H 6750 5700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6750 5700 50  0001 C CNN
 F 3 "~" H 6750 5700 50  0001 C CNN
 	1    6750 5700
 	1    0    0    1   
@@ -1218,7 +1218,7 @@ U 1 1 6193AE0A
 P 8500 5650
 F 0 "J3" H 8528 5626 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 8528 5535 50  0000 L CNN
-F 2 "" H 8500 5650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8500 5650 50  0001 C CNN
 F 3 "~" H 8500 5650 50  0001 C CNN
 	1    8500 5650
 	1    0    0    -1  
@@ -1255,4 +1255,25 @@ Wire Wire Line
 Wire Wire Line
 	7250 4850 7250 4900
 Connection ~ 7250 4900
+$Comp
+L Device:C_Small C?
+U 1 1 6197A27B
+P 1000 5400
+F 0 "C?" H 1092 5446 50  0000 L CNN
+F 1 "0.1uF" H 1092 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1000 5400 50  0001 C CNN
+F 3 "~" H 1000 5400 50  0001 C CNN
+	1    1000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5550 1000 5550
+Wire Wire Line
+	1000 5550 1000 5500
+Connection ~ 1350 5550
+Wire Wire Line
+	1350 5250 1000 5250
+Wire Wire Line
+	1000 5250 1000 5300
+Connection ~ 1350 5250
 $EndSCHEMATC
