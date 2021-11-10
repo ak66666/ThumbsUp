@@ -254,17 +254,6 @@ F 3 "" H 2700 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3000 3050 2700 3050
-$Comp
-L Device:Crystal_GND24_Small Y1
-U 1 1 616C3379
-P 2150 2550
-F 0 "Y1" H 2294 2596 50  0000 L CNN
-F 1 "16MHz" H 2294 2505 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 2150 2550 50  0001 C CNN
-F 3 "~" H 2150 2550 50  0001 C CNN
-	1    2150 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 2450 2150 2450
 Wire Wire Line
@@ -1120,7 +1109,7 @@ ROW2
 Text GLabel 6200 5100 0    50   Input ~ 0
 ROW3
 $Comp
-L SJ-43514:SJ-43514 J1
+L a44key-pcb-rescue:SJ-43514-SJ-43514 J1
 U 1 1 6186D5DF
 P 3850 850
 F 0 "J1" H 3832 1175 50  0000 C CNN
@@ -1189,10 +1178,10 @@ $EndComp
 Wire Wire Line
 	6450 1200 6750 1200
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0115
 U 1 1 617476F1
 P 4500 750
-F 0 "#PWR?" H 4500 600 50  0001 C CNN
+F 0 "#PWR0115" H 4500 600 50  0001 C CNN
 F 1 "+5V" H 4515 923 50  0000 C CNN
 F 2 "" H 4500 750 50  0001 C CNN
 F 3 "" H 4500 750 50  0001 C CNN
@@ -1201,4 +1190,69 @@ F 3 "" H 4500 750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 750  4500 750 
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 616C3379
+P 2150 2550
+F 0 "Y1" H 2294 2596 50  0000 L CNN
+F 1 "16MHz" H 2294 2505 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 2150 2550 50  0001 C CNN
+F 3 "~" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 6193A042
+P 6750 5700
+F 0 "J2" H 6642 5275 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 6642 5366 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6750 5700 50  0001 C CNN
+F 3 "~" H 6750 5700 50  0001 C CNN
+	1    6750 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 6193AE0A
+P 8500 5650
+F 0 "J3" H 8528 5626 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 8528 5535 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8500 5650 50  0001 C CNN
+F 3 "~" H 8500 5650 50  0001 C CNN
+	1    8500 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 5600 0    50   Input ~ 0
+COL5
+Text GLabel 6150 5700 0    50   Input ~ 0
+COL4
+Wire Wire Line
+	6150 5600 6550 5600
+Wire Wire Line
+	6150 5700 6550 5700
+Text GLabel 8000 5650 0    50   Input ~ 0
+TH35
+Text GLabel 8000 5750 0    50   Input ~ 0
+TH34
+Wire Wire Line
+	8000 5650 8300 5650
+Wire Wire Line
+	8000 5750 8300 5750
+Text GLabel 6300 4800 0    50   Input ~ 0
+TH35
+Wire Wire Line
+	6300 4800 6500 4800
+Wire Wire Line
+	6500 4800 6500 4900
+Wire Wire Line
+	6500 4900 6550 4900
+Connection ~ 6550 4900
+Text GLabel 7100 4850 0    50   Input ~ 0
+TH34
+Wire Wire Line
+	7100 4850 7250 4850
+Wire Wire Line
+	7250 4850 7250 4900
+Connection ~ 7250 4900
 $EndSCHEMATC
