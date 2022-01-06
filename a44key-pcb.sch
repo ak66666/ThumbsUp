@@ -608,13 +608,13 @@ Wire Wire Line
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX4
 U 1 1 61713060
-P 6700 4750
-F 0 "MX4" H 6733 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 6733 4899 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-Alps-Choc-X-1U-NoLED" H 6075 4725 60  0001 C CNN
-F 3 "" H 6075 4725 60  0001 C CNN
-	1    6700 4750
-	1    0    0    -1  
+P 6750 4550
+F 0 "MX4" H 6783 4773 60  0000 C CNN
+F 1 "MX-NoLED" H 6783 4699 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-Alps-Choc-X-1U-NoLED" H 6125 4525 60  0001 C CNN
+F 3 "" H 6125 4525 60  0001 C CNN
+	1    6750 4550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D4
@@ -628,17 +628,17 @@ F 3 "~" V 6550 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6550 4900 6650 4900
+	6550 4900 6600 4900
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX8
 U 1 1 6171306D
-P 7400 4750
-F 0 "MX8" H 7433 4973 60  0000 C CNN
-F 1 "MX-NoLED" H 7433 4899 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-Alps-Choc-X-1U-NoLED" H 6775 4725 60  0001 C CNN
-F 3 "" H 6775 4725 60  0001 C CNN
-	1    7400 4750
-	1    0    0    -1  
+P 7400 4600
+F 0 "MX8" H 7433 4823 60  0000 C CNN
+F 1 "MX-NoLED" H 7433 4749 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-Alps-Choc-X-1U-NoLED" H 6775 4575 60  0001 C CNN
+F 3 "" H 6775 4575 60  0001 C CNN
+	1    7400 4600
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D8
@@ -651,8 +651,6 @@ F 3 "~" V 7250 5000 50  0001 C CNN
 	1    7250 5000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7250 4900 7350 4900
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX11
 U 1 1 6171307A
@@ -899,16 +897,10 @@ Wire Wire Line
 	6850 3100 6850 3900
 Connection ~ 6850 3100
 Wire Wire Line
-	6850 3900 6850 4700
-Connection ~ 6850 3900
-Wire Wire Line
 	7550 2300 7550 3100
 Wire Wire Line
 	7550 3100 7550 3900
 Connection ~ 7550 3100
-Wire Wire Line
-	7550 3900 7550 4700
-Connection ~ 7550 3900
 Wire Wire Line
 	8250 2300 8250 3100
 Wire Wire Line
@@ -1165,7 +1157,6 @@ Wire Wire Line
 	7100 4850 7250 4850
 Wire Wire Line
 	7250 4850 7250 4900
-Connection ~ 7250 4900
 $Comp
 L Device:C_Small C8
 U 1 1 6197A27B
@@ -1402,4 +1393,19 @@ Wire Wire Line
 	7800 6350 8100 6350
 NoConn ~ 8100 6150
 NoConn ~ 8100 6450
+Wire Wire Line
+	6850 3900 6850 4400
+Wire Wire Line
+	6850 4400 6800 4400
+Connection ~ 6850 3900
+Wire Wire Line
+	6600 4600 6600 4900
+Wire Wire Line
+	7550 3900 7550 4450
+Wire Wire Line
+	7550 4450 7450 4450
+Connection ~ 7550 3900
+Wire Wire Line
+	7250 4650 7250 4850
+Connection ~ 7250 4850
 $EndSCHEMATC
