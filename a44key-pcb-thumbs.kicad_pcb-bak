@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 2)
+    (drawings 8)
     (tracks 51)
     (zones 0)
     (modules 5)
@@ -348,8 +348,14 @@
       (net 1 COL5))
   )
 
-  (gr_line (start 85.394513 145.352262) (end 85.481493 127.362797) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 87.061445 146.982235) (end 85.394513 145.352262) (layer Edge.Cuts) (width 0.05) (tstamp 61733F10))
+  (gr_line (start 85.598 128.524) (end 85.598 145.288) (layer Edge.Cuts) (width 0.05) (tstamp 61D9C6C1))
+  (gr_line (start 86.868 127.508) (end 85.598 128.524) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 123.444 127.508) (end 86.868 127.508) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 124.714 128.524) (end 123.444 127.508) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 124.714 145.542) (end 124.714 128.524) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 123.444 146.812) (end 124.714 145.542) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 87.122 146.812) (end 123.444 146.812) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 85.598 145.288) (end 87.122 146.812) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 98.078622 140.377695) (end 98.603622 140.377695) (width 0.254) (layer F.Cu) (net 1))
   (segment (start 95.453622 143.002695) (end 98.078622 140.377695) (width 0.254) (layer F.Cu) (net 1))
