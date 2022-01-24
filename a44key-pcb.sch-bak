@@ -1418,10 +1418,10 @@ F 3 "" H 4800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open Right-Left
+L Jumper:SolderJumper_3_Open Right-Left1
 U 1 1 61D817AC
 P 4800 4350
-F 0 "Right-Left" V 4754 4418 50  0000 L CNN
+F 0 "Right-Left1" V 4754 4418 50  0000 L CNN
 F 1 "JP1" V 4845 4418 50  0000 L CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 4800 4350 50  0001 C CNN
 F 3 "~" H 4800 4350 50  0001 C CNN
