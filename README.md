@@ -2,7 +2,13 @@
 
 44-key Split Keyboard PCB with the thumb keys placed on the raised platforms.
 
-![Overview](https://github.com/ak66666/44Keys/blob/main/Photos%2020210121/20220121_102756.jpg)
+![Kailh Choc](https://github.com/ak66666/ThumbsUp/blob/main/Photos%2020210121/20220131_085029.jpg)
+![Matias](https://github.com/ak66666/44Keys/blob/main/Photos%2020210121/20220121_102756.jpg)
+
+
+![Overview](https://github.com/ak66666/ThumbsUp/blob/main/Photos%2020210121/20220128_213625.jpg)
+![Overview](https://github.com/ak66666/ThumbsUp/blob/main/Photos%2020210121/20220128_213642.jpg)
+
 
 Ideas behind this design and layout are described here:
 ![](https://www.allthingsergo.com/case-study-one-approach-optimizing-ergonomic-keyboard-layouts)
